@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html.body{
+    height: 100%;
+    width: 100%;
+    
+
+}
+.container{
+    height: 100%;
+    width:100%;
+    padding:2vw;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #E0F4FF;
+}
+.title{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap :5px;
+}
+.ri-temp-hot-line{
+    font-size:34px;
+}
+#content{
+    /* margin:50px 9vw; */
+    position: absolute;
+    top :50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:60%;
+    width: 45%;
+    background-color:#E0F4FF;
+    
+}
+#celcius, #Farenheit, #Kelvin{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin-top:25px;
+}
+input{
+    flex:5;
+    height: 30px;
+    width:10%;
+    font-size:18px;
+    text-align: center;
+    border:none;
+    outline:none;
+    border-radius: 8px 0 0 8px;
+    padding:0 10px;
+
+}
+.button{
+    margin-top:16px;
+
+}
+button{
+    height: 24px;
+    padding: 0 4px;
+    border-radius: 5px;
+    font-size:14px;
+    border: 1px solid #fff;
+}
+button:hover{
+    background-color:#000;
+    color:#fff;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+} */
